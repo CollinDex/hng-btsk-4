@@ -1,0 +1,29 @@
+{
+  "name": "article-api",
+  "version": "1.0.0",
+  "description": "A part of article api to create and update topics on request from the admin.",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Dex",
+  "license": "ISC",
+  "devDependencies": {
+    "typescipt": "^1.0.0"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.37.3",
+    "typeorm": "^0.3.20"
+  }
+}
